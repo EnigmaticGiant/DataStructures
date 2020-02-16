@@ -1,0 +1,10 @@
+INTEGER test of QUEUE, insertions and deletions at front
+items: <>
+items: <>
+size is 0
+items: ()
+size is 0
+items: (displaying top element)
+52691
+
+size is 102814
