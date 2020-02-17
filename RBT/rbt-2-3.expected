@@ -1,0 +1,16 @@
+INTEGER test of RBT, insertions
+RBT:
+0: 3<3>(3<3>)X
+1: 1<5>(3<3>)L 5(3<3>)R
+2: =0*(1<5>)L =2*(1<5>)R =4*<2>(5)L
+debug (in-order): 0: 3<3>(3<3>)X
+1: 1<5>(3<3>)L 5(3<3>)R
+2: =0*(1<5>)L =2*(1<5>)R =4*<2>(5)L
+
+debug (pre-order): [3<3> [1<5> [0*] [2*]] [5 [4*<2>]]]
+debug (post-order): [[[0*] [2*] 1<5>] [[4*<2>] 5] 3<3>]
+size is 6
+Duplicates: 7
+Nodes: 6
+Minimum depth: 1
+Maximum depth: 2
